@@ -1,0 +1,13 @@
+@media only screen and (max-width: 768px) { 
+// Suits
+#suits {
+  grid-template-columns: 1fr;
+  .suits-bk {
+    display: none;
+  }
+  .suits-content {
+    margin-top: 50px;
+    padding: 20px;
+  } //End .suits-content
+} //End #suits
+}

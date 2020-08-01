@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@media only screen and (max-width: 768px) {
+  #suits {
+    grid-template-columns: 1fr;
+  }
+  #suits .suits-bk {
+    display: none;
+  }
+  #suits .suits-content {
+    margin-top: 50px;
+    padding: 20px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: #153f4c;
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 10rem;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.btn {
+  font-size: 18px;
+  background: #153f4c;
+  color: #fff;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.large {
+  font-size: 1.5rem;
+}
+
+#suits {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#suits .suits-bk {
+  background: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+#suits .suits-content {
+  margin-top: 180px;
+  padding: 20px;
+}
+#suits .suits-content h1 {
+  padding-bottom: 20px;
+}
+#suits .suits-content p {
+  padding-bottom: 30px;
+}
+#suits .suits-content form input,
+#suits .suits-content form button {
+  display: inline-block;
+}
+#suits .suits-content form input {
+  background: #f9f9f9;
+  padding: 15px;
+  border: 0;
+  width: 50%;
+  margin-right: 0;
+}
+#suits .suits-content form ::placeholder {
+  color: #c4c4c4;
+}
+#suits .suits-content ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px 18px 0px 0px;
+}
+
+/*# sourceMappingURL=style.css.map */
